@@ -23,9 +23,13 @@ database.default.port = 3306
 Next, start the mysql server up through the terminal:
 
 Mac(mysql):
-`brew services start mysql`
+```bash
+brew services start mysql
+```
 Linux(mariadb):
-`sudo systemctl start mariadb `
+```bash
+sudo systemctl start mariadb
+```
 
 Create a database and user (run with root/admin access):
 
