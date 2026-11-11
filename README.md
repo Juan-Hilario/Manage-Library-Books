@@ -13,7 +13,7 @@ Write these variables to the .env file:
 ```ini
 CI_ENVIRONMENT = development
 database.default.hostname = localhost
-database.default.database = library
+database.default.database = library_books
 database.default.username = librarian
 database.default.password = 123
 database.default.DBDriver = MySQLi
@@ -30,9 +30,9 @@ Linux(mariadb):
 Create a database and user (run with root/admin access):
 
 ```sql
-CREATE DATABASE library;
+CREATE DATABASE library_books;
 CREATE DATABASE 'librarian'@'localhost' IDENTIFIED By '123';
-GRANT ALL ON library.* TO 'librarian'@'localhost';
+GRANT ALL ON library_books.* TO 'librarian'@'localhost';
 ```
 
 Migrate the database and start up app :
