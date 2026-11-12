@@ -16,6 +16,7 @@
 	<table style="background-color: rgba(0, 0, 0, .1); width: 100%; text-align: center;">
 
 		<tr style="background-color:rgb(0,200,255)">
+			<th>Book Cover</th>
 			<th>Title</td>
 			<th>Author</td>
 			<th>Genre</td>
